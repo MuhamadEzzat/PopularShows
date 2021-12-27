@@ -38,9 +38,8 @@ extension ViewController{
             }
         }
         task.resume()
-        
-        
     }
+    
     
 }
 

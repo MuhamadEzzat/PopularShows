@@ -16,15 +16,23 @@ class ShowCell: UITableViewCell {
     @IBOutlet weak var linkBtn: UIButton!
     @IBOutlet weak var rateLbl: UILabel!
     
+    var link = ""
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        self.linkBtn.addTarget(self, action: #selector(openLink), for: .touchUpInside)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    @objc func openLink(){
+        guard let url = URL(string: link) else { return }
+        UIApplication.shared.open(url)
     }
 
 }

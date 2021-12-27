@@ -21,6 +21,7 @@
 		4A5DAAAC2778BFD90044528D /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DAAAB2778BFD90044528D /* Images.swift */; };
 		4A5DAAAE2778C56D0044528D /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DAAAD2778C56D0044528D /* Rating.swift */; };
 		4A5DAAB527793C8D0044528D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DAAB427793C8D0044528D /* Extensions.swift */; };
+		4A5DAAB8277940460044528D /* ShowDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DAAB7277940460044528D /* ShowDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		4A5DAAAB2778BFD90044528D /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		4A5DAAAD2778C56D0044528D /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
 		4A5DAAB427793C8D0044528D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4A5DAAB7277940460044528D /* ShowDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				4A5DAA8F27789B5F0044528D /* SceneDelegate.swift */,
 				4A5DAAB1277934730044528D /* Model */,
 				4A5DAAB627793FD60044528D /* Shows List */,
+				4A5DAAB7277940460044528D /* ShowDetailsVC.swift */,
 				4A5DAAB427793C8D0044528D /* Extensions.swift */,
 				4A5DAA9327789B5F0044528D /* Main.storyboard */,
 				4A5DAA9627789B620044528D /* Assets.xcassets */,
@@ -188,6 +191,7 @@
 				4A5DAAB527793C8D0044528D /* Extensions.swift in Sources */,
 				4A5DAAA62778A7100044528D /* ViewControllerTableEx.swift in Sources */,
 				4A5DAAA82778A8AE0044528D /* ViewControllerEx.swift in Sources */,
+				4A5DAAB8277940460044528D /* ShowDetailsVC.swift in Sources */,
 				4A5DAA9027789B5F0044528D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
