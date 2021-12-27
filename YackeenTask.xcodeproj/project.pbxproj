@@ -75,10 +75,7 @@
 				4A5DAA8D27789B5F0044528D /* AppDelegate.swift */,
 				4A5DAA8F27789B5F0044528D /* SceneDelegate.swift */,
 				4A5DAAB1277934730044528D /* Model */,
-				4A5DAA9127789B5F0044528D /* ViewController.swift */,
-				4A5DAAA72778A8AE0044528D /* ViewControllerEx.swift */,
-				4A5DAAA52778A7100044528D /* ViewControllerTableEx.swift */,
-				4A5DAAA32778A5F50044528D /* ShowCell.swift */,
+				4A5DAAB627793FD60044528D /* Shows List */,
 				4A5DAAB427793C8D0044528D /* Extensions.swift */,
 				4A5DAA9327789B5F0044528D /* Main.storyboard */,
 				4A5DAA9627789B620044528D /* Assets.xcassets */,
@@ -97,6 +94,17 @@
 				4A5DAAAB2778BFD90044528D /* Images.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		4A5DAAB627793FD60044528D /* Shows List */ = {
+			isa = PBXGroup;
+			children = (
+				4A5DAAA32778A5F50044528D /* ShowCell.swift */,
+				4A5DAA9127789B5F0044528D /* ViewController.swift */,
+				4A5DAAA72778A8AE0044528D /* ViewControllerEx.swift */,
+				4A5DAAA52778A7100044528D /* ViewControllerTableEx.swift */,
+			);
+			path = "Shows List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
