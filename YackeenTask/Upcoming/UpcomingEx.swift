@@ -1,15 +1,15 @@
 //
-//  ViewControllerEx.swift
+//  UpcomingEx.swift
 //  YackeenTask
 //
-//  Created by Mohamed Ezzat on 26/12/2021.
+//  Created by Mohamed Ezzat on 06/01/2022.
 //
 
 import Foundation
 import UIKit
 
 
-extension ViewController{
+extension UpcomingVC{
     
     func getdata(){
         
@@ -17,7 +17,7 @@ extension ViewController{
     
         showURL.scheme = "http"
         showURL.host   = "api.themoviedb.org"
-        showURL.path   = "/3/movie/popular"
+        showURL.path   = "/3/movie/upcoming"
         showURL.queryItems = [URLQueryItem(name: "api_key", value: "837aa67b269303622a476bbe24283a57")]
 
         let task = URLSession.shared.dataTask(with: showURL.url!) { data, response, error in

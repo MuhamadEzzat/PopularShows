@@ -1,13 +1,15 @@
 //
-//  ViewController.swift
+//  UpcomingVC.swift
 //  YackeenTask
 //
-//  Created by Mohamed Ezzat on 26/12/2021.
+//  Created by Mohamed Ezzat on 06/01/2022.
 //
+
+import Foundation
 
 import UIKit
 
-class ViewController: UIViewController, FavoriteDelegate {
+class UpcomingVC: UIViewController, FavoriteDelegate {
     func downloadImage(url: String) -> (UIImage) {
         let img = UIImage()
         return img
@@ -16,6 +18,7 @@ class ViewController: UIViewController, FavoriteDelegate {
     func setFavMovie(check: String) {
         print(check)
     }
+    
     
     var datasource: _Data?
 
@@ -28,4 +31,3 @@ class ViewController: UIViewController, FavoriteDelegate {
 
 
 }
-

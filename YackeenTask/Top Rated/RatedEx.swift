@@ -1,15 +1,16 @@
 //
-//  ViewControllerEx.swift
+//  RatedEx.swift
 //  YackeenTask
 //
-//  Created by Mohamed Ezzat on 26/12/2021.
+//  Created by Mohamed Ezzat on 06/01/2022.
 //
+
 
 import Foundation
 import UIKit
 
 
-extension ViewController{
+extension RatedVC{
     
     func getdata(){
         
@@ -17,8 +18,8 @@ extension ViewController{
     
         showURL.scheme = "http"
         showURL.host   = "api.themoviedb.org"
-        showURL.path   = "/3/movie/popular"
-        showURL.queryItems = [URLQueryItem(name: "api_key", value: "837aa67b269303622a476bbe24283a57")]
+        showURL.path   = "/3/movie/top_rated"
+        showURL.queryItems = [URLQueryItem(name: "api_key", value: "837aa67b269303622a476bbe24283a57"), URLQueryItem(name: "page", value: "3")]
 
         let task = URLSession.shared.dataTask(with: showURL.url!) { data, response, error in
             guard let data = data else{

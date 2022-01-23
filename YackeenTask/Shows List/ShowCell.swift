@@ -21,7 +21,6 @@ class ShowCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        self.linkBtn.addTarget(self, action: #selector(openLink), for: .touchUpInside)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

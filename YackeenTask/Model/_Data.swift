@@ -8,18 +8,18 @@
 import Foundation
 
 struct _Data : Codable{
-    let score : Float
-    let show  : PopularShow?
+    let page : Int
+    let results  : [PopularShow]?
     
     enum CodingKeys : String, CodingKey  {
-        case score = "score"
-        case show  = "show"
+        case page
+        case results
     }
 
     init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
-        score = try values.decodeIfPresent(Float.self, forKey: .score) ?? 0.0
-        show = try values.decodeIfPresent(PopularShow.self, forKey: .show)
+        page = try values.decodeIfPresent(Int.self, forKey: .page) ?? 0
+        results = try values.decodeIfPresent([PopularShow].self, forKey: .results)
     }
 
 }
